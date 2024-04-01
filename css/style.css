@@ -40,15 +40,73 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    flex-direction: column;
+    margin: 30px 40px;
     padding-top: 50px;
 }
 .title .name{
     color: #000;
     font-size: 40px;
     font-weight: 700;
+    padding: 15px;
+
 }
 
+/* contact us */
 
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1196px;
+    
+}
+
+.contact-info{ 
+    color: #FFF;
+    background: #000;
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.contact-tilte h3{
+    font-size: 27px;
+    font-weight: 700;
+}
+.contact-tilte p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #afaaaa;
+}
+
+.contact{
+    margin: 3rem 0px;
+}
+.contact .contactInfo li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 0px;
+    
+}
+.contact ul li a {
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contactMedia .contactIcon{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px 0px 0px;
+    list-style: none;
+    
+}
+.contactMedia .contactIcon li{
+    font-size: 2rem;
+    padding: 30px 10px 0px 10px;
+}
 
 
