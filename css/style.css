@@ -5,3 +5,50 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo span{
+    font-weight: 700;
+    color: rgb(245, 147, 20);
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.nav ul li{
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 20;
+}
+/* title  */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding-top: 50px;
+}
+.title .name{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+
